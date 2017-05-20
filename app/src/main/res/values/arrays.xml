@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="appeal_arr">
+        <item>@string/appeal_mr</item>
+        <item>@string/appeal_ms</item>
+    </string-array>
+    <string-array name="booking_classes">
+        <item>@string/economy</item>
+        <item>@string/business</item>
+    </string-array>
+    <string-array name="doc_arr">
+        <item>@string/document_type_1</item>
+        <item>@string/document_type_2</item>
+        <item>@string/document_type_3</item>
+        <item>@string/document_type_4</item>
+    </string-array>
+    <string-array name="doc_genders">
+        <item>@string/document_gender_male</item>
+        <item>@string/document_gender_female</item>
+    </string-array>
+    <string-array name="gender_arr">
+        <item>@string/gender_mr</item>
+        <item>@string/gender_ms</item>
+    </string-array>
+    <string-array name="ibe_card_types">
+        <item>@string/card_type_vi</item>
+        <item>@string/card_type_ca</item>
+    </string-array>
+    <string-array name="ibe_currency">
+        <item>RUB</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>GBP</item>
+        <item>UAH</item>
+        <item>BGN</item>
+        <item>AMD</item>
+        <item>KZT</item>
+        <item>CNY</item>
+        <item>MDL</item>
+        <item>BRL</item>
+    </string-array>
+    <string-array name="lang_arr">
+        <item>@string/lang_dialog_ru</item>
+        <item>@string/lang_dialog_en</item>
+    </string-array>
+    <string-array name="wci_doc_arr">
+        <item>@string/document_type_0</item>
+        <item>@string/document_type_0_1</item>
+        <item>@string/document_type_3</item>
+        <item>@string/document_type_4</item>
+    </string-array>
+    <string-array name="wci_doc_selector">
+        <item>@string/new_document</item>
+        <item>@string/profile_document</item>
+    </string-array>
+</resources>

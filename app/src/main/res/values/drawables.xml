@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="s7_call_keyboard_button_bg_drawable">@color/s7_call_keyboard_button_bg</item>
+    <item type="drawable" name="s7_call_keyboard_button_pressed_bg_drawable">@color/s7_call_keyboard_button_pressed_bg</item>
+    <item type="drawable" name="s7_ibe_flights_price_bg_checked">@color/s7_acid</item>
+    <item type="drawable" name="s7_ibe_flights_price_bg_normal_1">#ff6f7a85</item>
+    <item type="drawable" name="s7_ibe_flights_price_bg_normal_2">#ff68737e</item>
+    <item type="drawable" name="s7_item_state_normal">@color/s7_cell_background</item>
+    <item type="drawable" name="s7_item_state_selected">@color/s7_acid</item>
+    <item type="drawable" name="transparent">@android:color/transparent</item>
+</resources>
