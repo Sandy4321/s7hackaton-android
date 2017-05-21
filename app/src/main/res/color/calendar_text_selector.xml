@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector>
-    <item app:state_selected="true" app:color="@color/calendar_text_selected" />
-    <item app:state_pressed="true" app:color="@color/calendar_text_selected" />
-    <item app:color="@color/calendar_text_inactive" app:tsquare_state_current_month="false" />
-    <item app:color="@color/calendar_active_month_bg" app:tsquare_state_today="true" />
-    <item app:color="@color/calendar_text_unselectable" app:tsquare_state_selectable="false" />
-    <item app:color="@color/calendar_text_active" />
-</selector>

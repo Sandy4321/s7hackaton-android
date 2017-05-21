@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="@style/Base.Widget.AppCompat.DrawerArrowToggle.Common">
-        <item name="drawableSize">24.0dip</item>
-        <item name="gapBetweenBars">3.0dip</item>
-        <item name="barLength">18.0dip</item>
-    </style>
+
     <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
         <item name="tabMode">fixed</item>
         <item name="tabGravity">fill</item>
@@ -537,16 +533,8 @@
         <item name="android:textColor">@color/abc_btn_colored_text_material</item>
     </style>
     <style name="AboutMenuItem" parent="@style/MenuItem" />
-    <style name="AboutSelectionLabel" parent="@style/SectionLabelText">
-        <item name="android:paddingLeft">@dimen/s7_margin_large</item>
-        <item name="android:paddingRight">@dimen/s7_margin_large</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">@dimen/s7_margin_x_large</item>
-        <item name="android:layout_marginBottom">@dimen/s7_margin_large</item>
-    </style>
-    <style name="AlertDialog.AppCompat" parent="@style/Base.AlertDialog.AppCompat" />
-    <style name="AlertDialog.AppCompat.Light" parent="@style/Base.AlertDialog.AppCompat.Light" />
+
+
     <style name="AlertDialogCustomSamsung" parent="@android:style/Theme.Holo.Light.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowFrame">@null</item>
@@ -1121,11 +1109,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">60.0dip</item>
     </style>
-    <style name="Calendar.Day.TextAppearance" parent="@android:style/TextAppearance">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@drawable/mcv_text_date_light</item>
-    </style>
+
     <style name="Calendar.Title.TextAppearance" parent="@android:style/TextAppearance">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -1186,14 +1170,7 @@
         <item name="color">@android:color/white</item>
         <item name="spinBars">true</item>
     </style>
-    <style name="DropDownListView.S7" parent="@style/Widget.AppCompat.ListView.DropDown">
-        <item name="android:listSelector">@drawable/selectable_background_s7</item>
-    </style>
-    <style name="DropDownNav.S7" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
-        <item name="android:background">@drawable/spinner_background_ab_s7</item>
-        <item name="android:dropDownSelector">@drawable/selectable_background_s7</item>
-        <item name="android:popupBackground">@drawable/menu_dropdown_panel_s7</item>
-    </style>
+
     <style name="FloatingLabelTextAppearance" parent="@android:style/TextAppearance">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/s7_text_secondary</item>
@@ -1209,30 +1186,6 @@
     <style name="GreenButton" parent="@style/OrangeButton">
         <item name="colorAccent">@color/s7_green_btn</item>
     </style>
-    <style name="IBEFlightDetailsTextItem">
-        <item name="compoundDrawableWidth">200.0dip</item>
-        <item name="compoundDrawableHeight">@dimen/s7_margin_large</item>
-    </style>
-    <style name="IBEPaymentPagerText" parent="@style/TextAppearance.Design.Tab">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-    <style name="IBESeatMapLegendIcon">
-        <item name="android:paddingLeft">@dimen/s7_padding_large</item>
-    </style>
-    <style name="IBESeatMapLegendIconLayout">
-        <item name="android:background">@color/ibe_seat_map_bg_light</item>
-        <item name="android:paddingLeft">@dimen/s7_margin_medium</item>
-        <item name="android:paddingTop">@dimen/s7_margin_medium</item>
-        <item name="android:paddingRight">@dimen/s7_margin_medium</item>
-        <item name="android:paddingBottom">@dimen/s7_margin_medium</item>
-    </style>
-    <style name="IBETextInputEditText">
-        <item name="android:theme">@style/IBETextInputTransparentEditTextStyle</item>
-    </style>
-    <style name="IBETextInputTransparentEditTextStyle" parent="@style/TextInputEditTextStyle">
-        <item name="colorControlNormal">#ff65666b</item>
-    </style>
     <style name="MenuItem">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">@color/s7_text_primary</item>
@@ -1245,32 +1198,8 @@
     <style name="MessengerButton">
         <item name="android:clickable">true</item>
     </style>
-    <style name="MessengerButton.Blue" parent="@style/MessengerButton">
-        <item name="android:background">@drawable/messenger_button_blue_bg_selector</item>
-    </style>
-    <style name="MessengerButton.Blue.Large" parent="@style/MessengerButton.Blue">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">44.0dip</item>
-        <item name="android:layout_marginLeft">16.0dip</item>
-        <item name="android:layout_marginRight">16.0dip</item>
-    </style>
-    <style name="MessengerButton.Blue.Small" parent="@style/MessengerButton.Blue">
-        <item name="android:layout_width">158.0dip</item>
-        <item name="android:layout_height">36.0dip</item>
-    </style>
-    <style name="MessengerButton.White" parent="@style/MessengerButton">
-        <item name="android:background">@drawable/messenger_button_white_bg_selector</item>
-    </style>
-    <style name="MessengerButton.White.Large" parent="@style/MessengerButton.White">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">44.0dip</item>
-        <item name="android:layout_marginLeft">16.0dip</item>
-        <item name="android:layout_marginRight">16.0dip</item>
-    </style>
-    <style name="MessengerButton.White.Small" parent="@style/MessengerButton.White">
-        <item name="android:layout_width">158.0dip</item>
-        <item name="android:layout_height">36.0dip</item>
-    </style>
+
+
     <style name="MessengerButtonText">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -1284,21 +1213,7 @@
     <style name="MessengerButtonText.Blue" parent="@style/MessengerButtonText">
         <item name="android:textColor">#ffffffff</item>
     </style>
-    <style name="MessengerButtonText.Blue.Large" parent="@style/MessengerButtonText.Blue">
-        <item name="android:drawableLeft">@drawable/messenger_bubble_large_white</item>
-    </style>
-    <style name="MessengerButtonText.Blue.Small" parent="@style/MessengerButtonText.Blue">
-        <item name="android:drawableLeft">@drawable/messenger_bubble_small_white</item>
-    </style>
-    <style name="MessengerButtonText.White" parent="@style/MessengerButtonText">
-        <item name="android:textColor">#ff0084ff</item>
-    </style>
-    <style name="MessengerButtonText.White.Large" parent="@style/MessengerButtonText.White">
-        <item name="android:drawableLeft">@drawable/messenger_bubble_large_blue</item>
-    </style>
-    <style name="MessengerButtonText.White.Small" parent="@style/MessengerButtonText.White">
-        <item name="android:drawableLeft">@drawable/messenger_bubble_small_blue</item>
-    </style>
+
     <style name="MyRadioButton" parent="@style/Theme.AppCompat.Light">
         <item name="colorControlNormal">@color/s7_white_text</item>
         <item name="colorControlActivated">@color/s7_accent_color</item>
@@ -1311,10 +1226,7 @@
         <item name="colorControlNormal">@color/s7_text_primary</item>
         <item name="colorControlActivated">@color/s7_text_primary</item>
     </style>
-    <style name="MySearchViewStyle" parent="@style/Widget.AppCompat.SearchView">
-        <item name="searchIcon">@drawable/s7_ic_action_search</item>
-        <item name="searchHintIcon">@drawable/s7_ic_action_search</item>
-    </style>
+
     <style name="OrangeButton" parent="@style/ThemeOverlay.AppCompat.Dark">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/s7_transparent_text_primary</item>
@@ -1323,15 +1235,7 @@
         <item name="colorAccent">@color/s7_accent_orange</item>
         <item name="colorButtonNormal">@color/s7_line_color</item>
     </style>
-    <style name="OverFlow" parent="@style/Widget.AppCompat.ActionButton.Overflow">
-        <item name="android:src">@drawable/s7_ic_action_overflow</item>
-    </style>
-    <style name="PopupMenu.S7" parent="@style/Widget.AppCompat.PopupMenu">
-        <item name="android:popupBackground">@drawable/menu_dropdown_panel_s7</item>
-    </style>
-    <style name="ProfileMenuItem" parent="@style/MenuItem">
-        <item name="android:paddingLeft">@dimen/s7_padding_large</item>
-    </style>
+
     <style name="ProgressBar.S7" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
         <item name="android:progressDrawable">@drawable/progress_horizontal_s7</item>
     </style>
@@ -1354,96 +1258,8 @@
         <item name="colorControlActivated">@android:color/white</item>
     </style>
     <style name="S7" />
-    <style name="S7.AutoCompleteTextView" parent="@android:style/Widget.AutoCompleteTextView">
-        <item name="android:textColor">@color/s7_text_color</item>
-        <item name="android:dropDownSelector">@drawable/s7_item_selector</item>
-        <item name="android:dropDownVerticalOffset">4.0dip</item>
-    </style>
-    <style name="S7.Button" parent="@android:style/Widget.Button">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Medium.Inverse</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:background">@drawable/s7_btn_default_holo_light</item>
-        <item name="android:minWidth">64.0dip</item>
-        <item name="android:minHeight">48.0dip</item>
-    </style>
-    <style name="S7.Button.Price" parent="@style/S7.Button">
-        <item name="android:textColor">@color/s7_text_color</item>
-        <item name="android:background">@drawable/s7_btn_price</item>
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_small</item>
-        <item name="android:minHeight">35.0dip</item>
-    </style>
-    <style name="S7.Button.Red" parent="@style/S7.Button">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Medium</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:background">@drawable/s7_btn_red</item>
-        <item name="android:minHeight">48.0dip</item>
-    </style>
-    <style name="S7.Button.Red.Stroke" parent="@style/S7.Button.Red">
-        <item name="android:textColor">@color/s7_btn_red_stroke_and_text</item>
-        <item name="android:background">@drawable/s7_btn_red_stroke</item>
-    </style>
-    <style name="S7.Button.Red.WithBigMargins" parent="@style/S7.Button.Red">
-        <item name="android:layout_marginLeft">@dimen/s7_padding_lr_default</item>
-        <item name="android:layout_marginTop">24.0dip</item>
-        <item name="android:layout_marginRight">@dimen/s7_padding_lr_default</item>
-        <item name="android:layout_marginBottom">15.0dip</item>
-    </style>
-    <style name="S7.Button.Red.WithMargins" parent="@style/S7.Button.Red">
-        <item name="android:layout_marginLeft">@dimen/s7_padding_lr_default</item>
-        <item name="android:layout_marginTop">@dimen/s7_padding_tb_default</item>
-        <item name="android:layout_marginRight">@dimen/s7_padding_lr_default</item>
-        <item name="android:layout_marginBottom">@dimen/s7_padding_tb_default</item>
-    </style>
-    <style name="S7.Button.Stroke" parent="@style/S7.Button">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Medium</item>
-        <item name="android:textColor">@color/s7_text_color</item>
-        <item name="android:background">@drawable/s7_btn_stroke</item>
-    </style>
-    <style name="S7.Cell" parent="@style/S7">
-        <item name="android:background">@color/s7_cell_background</item>
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingTop">@dimen/s7_padding_tb_default</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_tb_default</item>
-        <item name="android:minHeight">48.0dip</item>
-        <item name="actionBtnIcon">@drawable/s7_ic_address_book</item>
-    </style>
-    <style name="S7.Cell.MybPayments" parent="@style/S7.Cell">
-        <item name="android:background">@android:color/transparent</item>
-        <item name="android:paddingLeft">2.0dip</item>
-        <item name="android:paddingTop">1.0dip</item>
-        <item name="android:paddingRight">35.0dip</item>
-        <item name="android:paddingBottom">1.0dip</item>
-        <item name="android:minHeight">0.0dip</item>
-        <item name="cellTitleTextAppearance">@style/S7.TextAppearance.Cell.Payments</item>
-        <item name="cellValueTextAppearance">@style/S7.TextAppearance.Cell.Payments</item>
-    </style>
-    <style name="S7.Cell.MybPayments.Charges" parent="@style/S7.Cell.MybPayments">
-        <item name="android:background">@drawable/bg_cell_charges</item>
-        <item name="android:paddingRight">0.0dip</item>
-        <item name="actionBtnIcon">@drawable/s7_ic_arrow</item>
-    </style>
-    <style name="S7.Cell.MybPayments.Total" parent="@style/S7.Cell.MybPayments">
-        <item name="cellTitleTextAppearance">@style/S7.TextAppearance.Cell.Payments.Total</item>
-        <item name="cellValueTextAppearance">@style/S7.TextAppearance.Cell.Payments.Total</item>
-    </style>
-    <style name="S7.Cell.New" parent="@style/S7.Cell">
-        <item name="android:background">@android:color/transparent</item>
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingTop">@dimen/s7_padding_tb_default</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_tb_default</item>
-        <item name="android:minHeight">48.0dip</item>
-        <item name="actionBtnIcon">@drawable/s7_ic_address_book</item>
-    </style>
-    <style name="S7.CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
-        <item name="android:button">@drawable/s7_btn_check_holo_light</item>
-    </style>
-    <style name="S7.CheckBox.FlightBoard" parent="@style/S7.CheckBox">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">36.0dip</item>
-        <item name="android:button">@drawable/s7_btn_check_favorite_small</item>
-    </style>
+
+
     <style name="S7.CheckedLayout" parent="@style/S7">
         <item name="android:gravity">center</item>
         <item name="android:orientation">vertical</item>
@@ -1451,514 +1267,11 @@
         <item name="android:minHeight">56.0dip</item>
         <item name="android:layout_weight">1.0</item>
     </style>
-    <style name="S7.CheckedTextView" parent="@style/S7" />
-    <style name="S7.CheckedTextView.Item" parent="@style/S7.CheckedTextView">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/s7_text_color</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:background">@drawable/s7_item_state_normal</item>
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingTop">@dimen/s7_padding_tb_default</item>
-        <item name="android:paddingRight">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_tb_default</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:checkMark">@drawable/s7_cb_wci</item>
-        <item name="android:minHeight">48.0dip</item>
-    </style>
-    <style name="S7.CheckedTextView.Item.Expand" parent="@style/S7.CheckedTextView.Item">
-        <item name="android:background">@drawable/s7_item_selector_no_check</item>
-        <item name="android:checkMark">@drawable/s7_open_close_check</item>
-    </style>
-    <style name="S7.CheckedTextView.Item.Expand.New" parent="@style/S7.CheckedTextView.Item.Expand">
-        <item name="android:background">@android:color/transparent</item>
-        <item name="android:checkMark">@drawable/s7_open_close_check_new</item>
-    </style>
-    <style name="S7.CheckedTextView.Item.WCI" parent="@style/S7.CheckedTextView.Item" />
-    <style name="S7.CheckedTextView.ItemWCI" parent="@style/S7.CheckedTextView">
-        <item name="android:textColor">@color/s7_text_color</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:background">@drawable/s7_item_state_normal</item>
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingTop">@dimen/s7_padding_tb_default</item>
-        <item name="android:paddingRight">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_tb_default</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:checkMark">@drawable/s7_cb_wci</item>
-        <item name="android:minHeight">48.0dip</item>
-    </style>
-    <style name="S7.CheckedTextView.ItemWCI.Bold" parent="@style/S7.CheckedTextView.ItemWCI">
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="S7.CirclePageIndicator" parent="@style/Widget">
-        <item name="android:background">@color/s7_black_background</item>
-        <item name="android:paddingTop">@dimen/s7_padding_tb_default</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_tb_default</item>
-        <item name="fillColor">@color/s7_cell_background</item>
-        <item name="pageColor">@color/s7_black_background</item>
-        <item name="radius">4.0dip</item>
-        <item name="strokeColor">@color/s7_cell_background</item>
-    </style>
+
     <style name="S7.DropDownItem" parent="@android:style/Widget.DropDownItem">
         <item name="android:textColor">@color/s7_text_color</item>
     </style>
-    <style name="S7.EditText" parent="@android:style/Widget.EditText">
-        <item name="android:textColor">@color/s7_text_color</item>
-        <item name="android:background">@drawable/s7_edit_text_holo_light</item>
-    </style>
-    <style name="S7.ImageButton" parent="@android:style/Widget.ImageButton">
-        <item name="android:background">@drawable/s7_btn_default_holo_light</item>
-    </style>
-    <style name="S7.Keyboard.ButtonActionKey" parent="@style/S7.Button">
-        <item name="android:background">@drawable/keyboard_action_button</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">50.0dip</item>
-    </style>
-    <style name="S7.Keyboard.ButtonActionKey.Chronometer" parent="@style/S7.Keyboard.ButtonActionKey">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Large</item>
-    </style>
-    <style name="S7.Keyboard.ButtonKey" parent="@style/S7.Button">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Large</item>
-        <item name="android:textColor">@color/s7_text_color</item>
-        <item name="android:background">@drawable/keyboard_button_selector</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">50.0dip</item>
-    </style>
-    <style name="S7.Keyboard.ButtonKey.Backspace" parent="@style/S7.Keyboard.ButtonKey">
-        <item name="android:background">@color/s7_call_keyboard_button_backspace_bg</item>
-    </style>
-    <style name="S7.Layout" parent="@style/S7">
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingTop">@dimen/s7_padding_tb_default</item>
-        <item name="android:paddingRight">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_tb_default</item>
-    </style>
-    <style name="S7.Layout.MyS7_Ticket" parent="@style/S7.Layout">
-        <item name="android:background">@drawable/s7_bg_mys7_ticket</item>
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_small</item>
-        <item name="android:paddingTop">@dimen/s7_padding_lr_small</item>
-        <item name="android:paddingRight">@dimen/s7_padding_lr_small</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_lr_small</item>
-    </style>
-    <style name="S7.Layout.Small" parent="@style/S7.Layout">
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_small</item>
-        <item name="android:paddingTop">@dimen/s7_padding_tb_small</item>
-        <item name="android:paddingRight">@dimen/s7_padding_lr_small</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_tb_small</item>
-    </style>
-    <style name="S7.Layout.SmallPaddingLR" parent="@style/S7.Layout">
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_small</item>
-        <item name="android:paddingRight">@dimen/s7_padding_lr_small</item>
-    </style>
-    <style name="S7.Layout.SmallPaddingTB" parent="@style/S7.Layout">
-        <item name="android:paddingTop">@dimen/s7_padding_tb_small</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_tb_small</item>
-    </style>
-    <style name="S7.LayoutWithDividers" parent="@style/S7">
-        <item name="android:orientation">vertical</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="divider">@drawable/s7_divider</item>
-        <item name="showDividers">end|beginning|middle</item>
-    </style>
-    <style name="S7.ListItem" parent="@style/S7">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Medium</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingTop">@dimen/s7_padding_tb_small</item>
-        <item name="android:paddingRight">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_tb_small</item>
-        <item name="android:minHeight">48.0dip</item>
-    </style>
-    <style name="S7.ListItemWithoutPadding" parent="@style/S7">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Medium</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:minHeight">48.0dip</item>
-    </style>
-    <style name="S7.PtrHeader" parent="@style/S7">
-        <item name="ptrPullText">@string/pull_down_to_refresh</item>
-        <item name="ptrRefreshingText">@string/refreshing</item>
-        <item name="ptrReleaseText">@string/release_to_refresh</item>
-    </style>
-    <style name="S7.RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
-        <item name="android:button">@drawable/s7_btn_radio_holo_light</item>
-    </style>
-    <style name="S7.Spinner" parent="@android:style/Widget.Spinner">
-        <item name="android:background">@drawable/s7_spinner_background_holo_light</item>
-        <item name="android:dropDownSelector">@drawable/s7_item_selector</item>
-    </style>
-    <style name="S7.TabPageIndicator" parent="@style/Widget.TabPageIndicator">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">?android:textColorPrimaryInverseDisableOnly</item>
-        <item name="android:background">@drawable/tab_indicator_ab_s7</item>
-        <item name="android:divider">?dividerVertical</item>
-        <item name="android:minHeight">48.0dip</item>
-        <item name="android:singleLine">true</item>
-    </style>
-    <style name="S7.Text" parent="@style/S7">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-    </style>
-    <style name="S7.Text.CallDialogHeader" parent="@style/S7.Text">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Medium.Inverse</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@color/s7_ab_background</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">fill_parent</item>
-    </style>
-    <style name="S7.Text.CustomCallBtn" parent="@style/S7.Text">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Medium.Inverse</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:includeFontPadding">false</item>
-    </style>
-    <style name="S7.Text.CustomCallBtn.Small" parent="@style/S7.Text.CustomCallBtn">
-        <item name="android:textAppearance">@style/S7.TextAppearance.SuperSmall.Inverse</item>
-    </style>
-    <style name="S7.Text.Zingaya" parent="@style/S7.Text">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">30.0dip</item>
-    </style>
-    <style name="S7.Text.Zingaya.CallLog" parent="@style/S7.Text.Zingaya">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Medium</item>
-        <item name="android:textColor">@color/s7_zingaya_state</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:layout_marginTop">@dimen/s7_margin_x_large</item>
-    </style>
-    <style name="S7.Text.Zingaya.OperatorInstructions" parent="@style/S7.Text.Zingaya">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Small</item>
-        <item name="android:textColor">@color/s7_text_red_light</item>
-        <item name="android:gravity">center_horizontal</item>
-    </style>
-    <style name="S7.TextAppearance" parent="@android:style/TextAppearance">
-        <item name="android:textColor">@color/s7_text_color</item>
-    </style>
-    <style name="S7.TextAppearance.Cell" parent="@android:style/TextAppearance">
-        <item name="android:textColor">@color/s7_text_color</item>
-    </style>
-    <style name="S7.TextAppearance.Cell.Bold" parent="@style/S7.TextAppearance.Cell">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/s7_text_color</item>
-    </style>
-    <style name="S7.TextAppearance.Cell.Payments" parent="@android:style/TextAppearance.Small">
-        <item name="android:textColor">@color/s7_text_color_amount_due</item>
-    </style>
-    <style name="S7.TextAppearance.Cell.Payments.Total" parent="@style/S7.TextAppearance.Cell.Payments">
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="S7.TextAppearance.Inverse" parent="@style/S7.TextAppearance">
-        <item name="android:textColor">@color/s7_white_text</item>
-    </style>
-    <style name="S7.TextAppearance.Large" parent="@android:style/TextAppearance.Large">
-        <item name="android:textColor">@color/s7_text_color</item>
-    </style>
-    <style name="S7.TextAppearance.Large.Inverse" parent="@style/S7.TextAppearance.Large">
-        <item name="android:textColor">@color/s7_white_text</item>
-    </style>
-    <style name="S7.TextAppearance.Medium" parent="@android:style/TextAppearance.Medium">
-        <item name="android:textColor">@color/s7_text_color</item>
-    </style>
-    <style name="S7.TextAppearance.Medium.Inverse" parent="@style/S7.TextAppearance.Medium">
-        <item name="android:textColor">@color/s7_white_text</item>
-    </style>
-    <style name="S7.TextAppearance.Small" parent="@android:style/TextAppearance.Small">
-        <item name="android:textColor">@color/s7_text_color</item>
-    </style>
-    <style name="S7.TextAppearance.Small.Inverse" parent="@style/S7.TextAppearance.Small">
-        <item name="android:textColor">@color/s7_white_text</item>
-    </style>
-    <style name="S7.TextAppearance.SuperSmall" parent="@android:style/TextAppearance.Small">
-        <item name="android:textSize">12.0sp</item>
-    </style>
-    <style name="S7.TextAppearance.SuperSmall.Inverse" parent="@style/S7.TextAppearance.SuperSmall">
-        <item name="android:textColor">@color/s7_white_text</item>
-    </style>
-    <style name="S7.TextView" parent="@android:style/Widget.TextView">
-        <item name="android:textAppearance">@style/S7.TextAppearance</item>
-    </style>
-    <style name="S7.TextView.AdditionalService" parent="@style/S7.TextView">
-        <item name="android:gravity">center</item>
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingTop">@dimen/s7_padding_tb_default</item>
-        <item name="android:paddingRight">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_tb_default</item>
-        <item name="android:minHeight">48.0dip</item>
-    </style>
-    <style name="S7.TextView.BoardingPassTitle" parent="@style/S7.TextView">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Small</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/s7_boarding_pass_title</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:singleLine">true</item>
-    </style>
-    <style name="S7.TextView.BoardingPassValue" parent="@style/S7.TextView">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Small</item>
-        <item name="android:textColor">@color/s7_boarding_pass_value</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:singleLine">true</item>
-    </style>
-    <style name="S7.TextView.ClickableCell" parent="@style/S7.TextView">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Medium</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:background">@drawable/s7_item_selector</item>
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingTop">@dimen/s7_padding_tb_default</item>
-        <item name="android:paddingRight">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_tb_default</item>
-        <item name="android:minHeight">48.0dip</item>
-        <item name="android:drawablePadding">@dimen/s7_drawable_padding</item>
-    </style>
-    <style name="S7.TextView.ExpressAirportShort" parent="@style/S7.TextView">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Medium</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:gravity">center</item>
-        <item name="android:singleLine">true</item>
-    </style>
-    <style name="S7.TextView.FlightCalendarDayOfWeek" parent="@style/S7.TextView">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Small.Inverse</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:gravity">center</item>
-        <item name="android:paddingTop">3.0dip</item>
-        <item name="android:paddingBottom">3.0dip</item>
-    </style>
-    <style name="S7.TextView.Header" parent="@style/S7.TextView">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Small.Inverse</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:background">@color/s7_gray_header</item>
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingTop">@dimen/s7_padding_tb_small</item>
-        <item name="android:paddingRight">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_tb_small</item>
-    </style>
-    <style name="S7.TextView.Item" parent="@style/S7.TextView">
-        <item name="android:textStyle">bold</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:background">@drawable/s7_item_selector</item>
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingTop">@dimen/s7_padding_tb_default</item>
-        <item name="android:paddingRight">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingBottom">@dimen/s7_padding_tb_default</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:minHeight">48.0dip</item>
-    </style>
-    <style name="S7.TextView.MyS7Header" parent="@style/S7.TextView">
-        <item name="android:textAppearance">@style/S7.TextAppearance.Small.Inverse</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="S7.TextView.PriorityCard" parent="@style/S7.TextView">
-        <item name="android:textAppearance">@style/S7.TextAppearance.SuperSmall</item>
-        <item name="android:gravity">center</item>
-        <item name="android:singleLine">true</item>
-    </style>
-    <style name="S7.TextView.Prohibitions" parent="@style/S7.TextView">
-        <item name="android:textSize">@dimen/prohibitions_text_size</item>
-        <item name="android:ellipsize">none</item>
-        <item name="android:gravity">center</item>
-        <item name="android:padding">@dimen/s7_padding_tb_small</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1.0</item>
-    </style>
-    <style name="S7.TextView.SectionHeader" parent="@style/S7.TextView">
-        <item name="android:paddingLeft">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingTop">@dimen/s7_section_margin</item>
-        <item name="android:paddingRight">@dimen/s7_padding_lr_default</item>
-        <item name="android:paddingBottom">2.0dip</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textAllCaps">true</item>
-    </style>
-    <style name="S7.TextView.SectionHeader.NoPaddings" parent="@style/S7.TextView.SectionHeader">
-        <item name="android:paddingLeft">0.0dip</item>
-        <item name="android:paddingTop">0.0dip</item>
-        <item name="android:paddingRight">0.0dip</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textAllCaps">true</item>
-    </style>
-    <style name="S7.TextView.TicketWhite" parent="@style/S7.TextView">
-        <item name="android:textAppearance">@style/S7.TextAppearance.SuperSmall.Inverse</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="S7.TextView.Tip" parent="@style/S7.TextView">
-        <item name="android:textColor">@color/s7_text_color_hint</item>
-    </style>
-    <style name="S7.Theme" parent="@style/S7.BaseTheme">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
-        <item name="android:homeAsUpIndicator">@drawable/s7_ic_action_back</item>
-        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
-        <item name="windowActionBar">false</item>
-        <item name="homeAsUpIndicator">@drawable/s7_ic_action_back</item>
-        <item name="searchViewStyle">@style/MySearchViewStyle</item>
-        <item name="colorAccent">@color/s7_accent_color</item>
-        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
-        <item name="vpiCirclePageIndicatorStyle">@style/S7.CirclePageIndicator</item>
-        <item name="vpiTabPageIndicatorStyle">@style/S7.TabPageIndicator</item>
-    </style>
-    <style name="S7.Theme.AppBarOverlay" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
-    <style name="S7.Theme.PopupOverlay" parent="@style/ThemeOverlay.AppCompat.Light" />
-    <style name="S7.TitleValueCellView" parent="@style/S7">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="cellDefaultValue">@string/no_value_string</item>
-    </style>
-    <style name="S7.Zingaya.EditText" parent="@style/S7.EditText">
-        <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/zingaya_edit_field</item>
-        <item name="android:padding">@dimen/s7_padding_medium</item>
-        <item name="android:layout_marginLeft">@dimen/s7_margin_medium</item>
-        <item name="android:layout_marginTop">0.0dip</item>
-        <item name="android:layout_marginRight">@dimen/s7_margin_medium</item>
-        <item name="android:layout_marginBottom">@dimen/s7_margin_large</item>
-        <item name="android:editable">false</item>
-    </style>
-    <style name="S7.Zingaya.OperationKey" parent="@style/S7.Button.Red">
-        <item name="android:layout_gravity">center</item>
-        <item name="android:layout_width">250.0dip</item>
-        <item name="android:layout_height">50.0dip</item>
-        <item name="android:layout_marginTop">@dimen/s7_margin_medium</item>
-        <item name="android:layout_marginBottom">@dimen/s7_margin_medium</item>
-    </style>
-    <style name="SectionLabelText" parent="@style/TextAppearance.AppCompat">
-        <item name="android:textSize">22.0sp</item>
-        <item name="android:textColor">@color/s7_text_primary</item>
-    </style>
-    <style name="SectionLabelTextRegistration" parent="@style/SectionLabelTextStyle">
-        <item name="android:textSize">@dimen/s7_about_us_text</item>
-    </style>
-    <style name="SectionLabelTextShoppingCart" parent="@style/SectionLabelText">
-        <item name="android:fontFamily">sans-serif</item>
-    </style>
-    <style name="SectionLabelTextStyle">
-        <item name="android:textAppearance">@style/SectionLabelText</item>
-        <item name="android:layout_marginLeft">@dimen/s7_margin_small</item>
-        <item name="android:layout_marginTop">@dimen/s7_margin_large</item>
-        <item name="android:layout_marginRight">@dimen/s7_margin_small</item>
-        <item name="android:layout_marginBottom">@dimen/s7_margin_large</item>
-    </style>
-    <style name="SectionLabelTextWhite" parent="@style/TextAppearance.AppCompat">
-        <item name="android:textSize">22.0sp</item>
-        <item name="android:textColor">@color/s7_white_text</item>
-    </style>
-    <style name="ShoppingCartHintText" parent="@style/TextAppearance.AppCompat">
-        <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/s7_battleship_grey</item>
-        <item name="android:fontFamily">sans-serif</item>
-    </style>
-    <style name="TabLayout_Theme">
-        <item name="android:singleLine">true</item>
-    </style>
-    <style name="TextAppearance.AppCompat" parent="@style/Base.TextAppearance.AppCompat" />
-    <style name="TextAppearance.AppCompat.Body1" parent="@style/Base.TextAppearance.AppCompat.Body1" />
-    <style name="TextAppearance.AppCompat.Body2" parent="@style/Base.TextAppearance.AppCompat.Body2" />
-    <style name="TextAppearance.AppCompat.Button" parent="@style/Base.TextAppearance.AppCompat.Button" />
-    <style name="TextAppearance.AppCompat.Caption" parent="@style/Base.TextAppearance.AppCompat.Caption" />
-    <style name="TextAppearance.AppCompat.Display1" parent="@style/Base.TextAppearance.AppCompat.Display1" />
-    <style name="TextAppearance.AppCompat.Display2" parent="@style/Base.TextAppearance.AppCompat.Display2" />
-    <style name="TextAppearance.AppCompat.Display3" parent="@style/Base.TextAppearance.AppCompat.Display3" />
-    <style name="TextAppearance.AppCompat.Display4" parent="@style/Base.TextAppearance.AppCompat.Display4" />
-    <style name="TextAppearance.AppCompat.Headline" parent="@style/Base.TextAppearance.AppCompat.Headline" />
-    <style name="TextAppearance.AppCompat.Inverse" parent="@style/Base.TextAppearance.AppCompat.Inverse" />
-    <style name="TextAppearance.AppCompat.Large" parent="@style/Base.TextAppearance.AppCompat.Large" />
-    <style name="TextAppearance.AppCompat.Large.Inverse" parent="@style/Base.TextAppearance.AppCompat.Large.Inverse" />
-    <style name="TextAppearance.AppCompat.Light.SearchResult.Subtitle" parent="@style/TextAppearance.AppCompat.SearchResult.Subtitle" />
-    <style name="TextAppearance.AppCompat.Light.SearchResult.Title" parent="@style/TextAppearance.AppCompat.SearchResult.Title" />
-    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large" />
-    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small" />
-    <style name="TextAppearance.AppCompat.Medium" parent="@style/Base.TextAppearance.AppCompat.Medium" />
-    <style name="TextAppearance.AppCompat.Medium.Inverse" parent="@style/Base.TextAppearance.AppCompat.Medium.Inverse" />
-    <style name="TextAppearance.AppCompat.Menu" parent="@style/Base.TextAppearance.AppCompat.Menu" />
-    <style name="TextAppearance.AppCompat.Notification.Line2" parent="@style/TextAppearance.AppCompat.Notification.Info" />
-    <style name="TextAppearance.AppCompat.Notification.Line2.Media" parent="@style/TextAppearance.AppCompat.Notification.Info.Media" />
-    <style name="TextAppearance.AppCompat.SearchResult.Subtitle" parent="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle" />
-    <style name="TextAppearance.AppCompat.SearchResult.Title" parent="@style/Base.TextAppearance.AppCompat.SearchResult.Title" />
-    <style name="TextAppearance.AppCompat.Small" parent="@style/Base.TextAppearance.AppCompat.Small" />
-    <style name="TextAppearance.AppCompat.Small.Inverse" parent="@style/Base.TextAppearance.AppCompat.Small.Inverse" />
-    <style name="TextAppearance.AppCompat.Subhead" parent="@style/Base.TextAppearance.AppCompat.Subhead" />
-    <style name="TextAppearance.AppCompat.Subhead.Inverse" parent="@style/Base.TextAppearance.AppCompat.Subhead.Inverse" />
-    <style name="TextAppearance.AppCompat.Title" parent="@style/Base.TextAppearance.AppCompat.Title" />
-    <style name="TextAppearance.AppCompat.Title.Inverse" parent="@style/Base.TextAppearance.AppCompat.Title.Inverse" />
-    <style name="TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" />
-    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
-    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" />
-    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title" />
-    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" />
-    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle" />
-    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle" />
-    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionMode.Title" />
-    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title" />
-    <style name="TextAppearance.AppCompat.Widget.Button" parent="@style/Base.TextAppearance.AppCompat.Widget.Button" />
-    <style name="TextAppearance.AppCompat.Widget.Button.Borderless.Colored" parent="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored" />
-    <style name="TextAppearance.AppCompat.Widget.Button.Colored" parent="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored" />
-    <style name="TextAppearance.AppCompat.Widget.Button.Inverse" parent="@style/Base.TextAppearance.AppCompat.Widget.Button.Inverse" />
-    <style name="TextAppearance.AppCompat.Widget.DropDownItem" parent="@style/Base.TextAppearance.AppCompat.Widget.DropDownItem" />
-    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Header" parent="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Header" />
-    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Large" />
-    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Small" />
-    <style name="TextAppearance.AppCompat.Widget.Switch" parent="@style/Base.TextAppearance.AppCompat.Widget.Switch" />
-    <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="@style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem" />
-    <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="@style/TextAppearance.AppCompat.Display1">
-        <item name="android:textColor">?android:textColorPrimary</item>
-    </style>
-    <style name="TextAppearance.Design.Counter" parent="@style/TextAppearance.AppCompat.Caption" />
-    <style name="TextAppearance.Design.Counter.Overflow" parent="@style/TextAppearance.AppCompat.Caption">
-        <item name="android:textColor">@color/design_error</item>
-    </style>
-    <style name="TextAppearance.Design.Error" parent="@style/TextAppearance.AppCompat.Caption">
-        <item name="android:textColor">@color/design_error</item>
-    </style>
-    <style name="TextAppearance.Design.Hint" parent="@style/TextAppearance.AppCompat.Caption">
-        <item name="android:textColor">?colorControlActivated</item>
-    </style>
-    <style name="TextAppearance.Design.Snackbar.Message" parent="@android:style/TextAppearance">
-        <item name="android:textSize">@dimen/design_snackbar_text_size</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
-    </style>
-    <style name="TextAppearance.Design.Tab" parent="@style/TextAppearance.AppCompat.Button">
-        <item name="android:textSize">@dimen/design_tab_text_size</item>
-        <item name="android:textColor">?android:textColorSecondary</item>
-        <item name="textAllCaps">true</item>
-    </style>
-    <style name="TextAppearance.MaterialCalendarWidget.Date" parent="@android:style/TextAppearance.DeviceDefault.Small">
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">@color/mcv_text_date_light</item>
-    </style>
-    <style name="TextAppearance.MaterialCalendarWidget.Header" parent="@android:style/TextAppearance.DeviceDefault.Small">
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="TextAppearance.MaterialCalendarWidget.WeekDay" parent="@android:style/TextAppearance.DeviceDefault.Small">
-        <item name="android:textSize">12.0sp</item>
-    </style>
-    <style name="TextAppearance.TabPageIndicator" parent="@style/Widget">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/vpi__dark_theme</item>
-    </style>
-    <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@style/Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" />
-    <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" />
-    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title" />
-    <style name="TextAppearance_checked_hide" parent="@style/TextAppearance.AppCompat">
-        <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/s7_dark_gray</item>
-    </style>
-    <style name="TextAppearance_checked_open" parent="@style/TextAppearance.AppCompat">
-        <item name="android:textSize">24.0sp</item>
-        <item name="android:textColor">@color/s7_dark_gray</item>
-    </style>
-    <style name="TextInputEditText">
-        <item name="android:theme">@style/TextInputEditTextStyle</item>
-    </style>
-    <style name="TextInputEditText.Transparent" parent="@style/TextInputEditText">
-        <item name="android:theme">@style/TextInputTransparentEditTextStyle</item>
-    </style>
-    <style name="TextInputEditText.Transparent.IBE" parent="@style/TextInputEditText.Transparent">
-        <item name="android:theme">@style/TextInputIBETransparentEditTextStyle</item>
-    </style>
+
     <style name="TextInputEditTextStyle">
         <item name="android:textSize">18.0sp</item>
         <item name="android:singleLine">true</item>
@@ -1998,25 +1311,10 @@
     <style name="TextStyleInfoListMarkerPrivilege" parent="@style/TextStyleInfoListMarker">
         <item name="android:text">@string/ins_marker_privilege</item>
     </style>
-    <style name="Theme.AppCompat" parent="@style/Base.Theme.AppCompat" />
-    <style name="Theme.AppCompat.CompactMenu" parent="@style/Base.Theme.AppCompat.CompactMenu" />
-    <style name="Theme.AppCompat.Dialog" parent="@style/Base.Theme.AppCompat.Dialog" />
-    <style name="Theme.AppCompat.Dialog.Alert" parent="@style/Base.Theme.AppCompat.Dialog.Alert" />
-    <style name="Theme.AppCompat.Dialog.MinWidth" parent="@style/Base.Theme.AppCompat.Dialog.MinWidth" />
-    <style name="Theme.AppCompat.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.DialogWhenLarge" />
-    <style name="Theme.AppCompat.Light" parent="@style/Base.Theme.AppCompat.Light" />
-    <style name="Theme.AppCompat.Light.DarkActionBar" parent="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
-    <style name="Theme.AppCompat.Light.Dialog" parent="@style/Base.Theme.AppCompat.Light.Dialog" />
-    <style name="Theme.AppCompat.Light.Dialog.Alert" parent="@style/Base.Theme.AppCompat.Light.Dialog.Alert" />
-    <style name="Theme.AppCompat.Light.Dialog.MinWidth" parent="@style/Base.Theme.AppCompat.Light.Dialog.MinWidth" />
-    <style name="Theme.AppCompat.Light.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.Light.DialogWhenLarge" />
-    <style name="Theme.AppCompat.Light.NoActionBar" parent="@style/Theme.AppCompat.Light">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
     <style name="Theme.AppCompat.NoActionBar" parent="@style/Theme.AppCompat">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
     </style>
     <style name="Theme.Design" parent="@style/Theme.AppCompat">
         <item name="textColorError">@color/design_textinput_error_color_dark</item>
@@ -2042,16 +1340,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <style name="Theme.PageIndicatorDefaults" parent="@android:style/Theme">
-        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
-        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
-    </style>
-    <style name="Theme.S7.Widget" parent="@style/Theme.AppCompat">
-        <item name="android:dropDownListViewStyle">@style/DropDownListView.S7</item>
-        <item name="android:popupMenuStyle">@style/PopupMenu.S7</item>
-        <item name="popupMenuStyle">@style/PopupMenu.S7</item>
-        <item name="dropDownListViewStyle">@style/DropDownListView.S7</item>
-    </style>
+
     <style name="Theme.TransparentDialog" parent="@android:style/Theme.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
@@ -2070,27 +1359,13 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
         <item name="windowActionBar">false</item>
         <item name="windowActionBarOverlay">true</item>
-        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
-        <item name="actionMenuTextColor">@color/toolbar_white_menu_item_text_selector</item>
         <item name="selectableItemBackground">?android:selectableItemBackground</item>
         <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
         <item name="colorControlHighlight">@color/s7_accent_color</item>
     </style>
-    <style name="VectorActive" parent="@style/VectorArchive">
-        <item name="vectorColor">@color/s7_medina_green</item>
-    </style>
-    <style name="VectorArchive">
-        <item name="vectorColor">@color/s7_cool_gray</item>
-    </style>
-    <style name="VectorThemeAccent" parent="@style/VectorThemeDefault">
-        <item name="vectorFillColor">@color/s7_accent_color</item>
-    </style>
-    <style name="VectorThemeDefault">
-        <item name="vectorFillColor">@color/s7_text_primary</item>
-    </style>
+
     <style name="WCI_STATUS_NOT_REGISTER" parent="@style/FloatingLabelTextAppearanceAccent">
         <item name="android:textColor">@color/s7_red</item>
     </style>
@@ -2230,88 +1505,7 @@
         <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
         <item name="passwordToggleTint">@color/design_tint_password_toggle</item>
     </style>
-    <style name="Widget.IconPageIndicator" parent="@style/Widget">
-        <item name="android:layout_marginLeft">6.0dip</item>
-        <item name="android:layout_marginRight">6.0dip</item>
-    </style>
-    <style name="Widget.PullToRefresh.ProgressBar.Horizontal.Center" parent="@android:style/Widget.ProgressBar.Horizontal">
-        <item name="android:maxHeight">4.0dip</item>
-        <item name="android:indeterminateDrawable">@drawable/ptr_progress_indeterminate_horizontal_holo</item>
-        <item name="android:progressDrawable">@drawable/ptr_progress_horizontal_holo_center</item>
-        <item name="android:minHeight">4.0dip</item>
-    </style>
-    <style name="Widget.TabPageIndicator" parent="@style/Widget">
-        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/vpi__tab_indicator</item>
-        <item name="android:paddingLeft">22.0dip</item>
-        <item name="android:paddingTop">12.0dip</item>
-        <item name="android:paddingRight">22.0dip</item>
-        <item name="android:paddingBottom">12.0dip</item>
-        <item name="android:maxLines">1</item>
-    </style>
-    <style name="com_facebook_activity_theme" parent="@style/Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowIsTranslucent">true</item>
-    </style>
-    <style name="com_facebook_auth_dialog" parent="@style/Theme.AppCompat.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:windowIsTranslucent">true</item>
-    </style>
-    <style name="com_facebook_auth_dialog_instructions_textview">
-        <item name="android:textSize">16.0sp</item>
-        <item name="android:typeface">sans</item>
-        <item name="android:textColor">@color/com_facebook_device_auth_text</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:singleLine">false</item>
-        <item name="android:fontFamily">roboto</item>
-    </style>
-    <style name="com_facebook_button" parent="@android:style/Widget.Button">
-        <item name="android:textSize">14.0dip</item>
-        <item name="android:textColor">@color/com_facebook_button_text_color</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/com_facebook_button_background</item>
-        <item name="android:paddingLeft">8.0dip</item>
-        <item name="android:paddingTop">5.0dip</item>
-        <item name="android:paddingRight">8.0dip</item>
-        <item name="android:paddingBottom">5.0dip</item>
-        <item name="android:drawablePadding">6.0dip</item>
-    </style>
-    <style name="com_facebook_button_like" parent="@style/com_facebook_button">
-        <item name="android:background">@drawable/com_facebook_button_like_background</item>
-    </style>
-    <style name="com_facebook_button_send" parent="@style/com_facebook_button">
-        <item name="android:textColor">@color/com_facebook_send_button_text_color</item>
-        <item name="android:background">@drawable/com_facebook_button_send_background</item>
-        <item name="android:text">@string/com_facebook_send_button_text</item>
-        <item name="android:drawableLeft">@drawable/com_facebook_send_button_icon</item>
-    </style>
-    <style name="com_facebook_button_share" parent="@style/com_facebook_button">
-        <item name="android:text">@string/com_facebook_share_button_text</item>
-        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
-    </style>
-    <style name="com_facebook_loginview_default_style" parent="@style/com_facebook_button">
-        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
-    </style>
-    <style name="com_facebook_loginview_silver_style" parent="@style/com_facebook_loginview_default_style">
-        <item name="android:textColor">#ff4b5164</item>
-        <item name="android:background">@drawable/com_facebook_button_login_silver_background</item>
-        <item name="android:drawableLeft">@null</item>
-    </style>
-    <style name="elv_fade_animation">
-        <item name="android:windowEnterAnimation">@anim/elv_popup_show</item>
-        <item name="android:windowExitAnimation">@anim/elv_popup_hide</item>
-    </style>
-    <style name="fabLabelStyle">
-        <item name="android:textColor">@color/s7_text_primary</item>
-        <item name="android:background">@drawable/fab_label_bg</item>
-    </style>
+
     <style name="popupMenuStyle" parent="@android:style/Widget.PopupMenu" />
     <style name="tooltip_bubble_text">
         <item name="android:textSize">12.0sp</item>
