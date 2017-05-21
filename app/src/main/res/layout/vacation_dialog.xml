@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f3f3f3"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/labelTextView"
+        style="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black"
+        android:text="Ближайший отпуск" />
+
+    <TextView
+        android:id="@+id/descTextView"
+        style="@style/TextAppearance.AppCompat.Small.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Обозначьте период отпуска и выберите города в которых вы хотели побывать" />
+    <TextView
+        android:id="@+id/dateTimeTextView"
+        style="@style/TextAppearance.AppCompat.Small.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        tools:text="Не выбрано" />
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/dateTimeButton"
+        android:layout_gravity="center"
+        android:text="Отметить даты"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Отметьте города:"
+            android:textColor="@android:color/black"/>
+        <com.pchmn.materialchips.ChipsInput
+            android:id="@+id/chips_input"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="16dp"
+            app:hint="Enter a name" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/vacation_cancel"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Отмена" />
+        <Button
+            android:id="@+id/vacation_ok"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+             android:text="Ок" />
+    </LinearLayout>
+
+</LinearLayout>

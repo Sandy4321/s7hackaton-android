@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/progress_bg_s7" />
+    <item >
+        <scale android:drawable="@drawable/progress_secondary_s7" android:scaleWidth="100%"  android:scaleHeight="200%" />
+    </item>
+    <item >
+        <scale android:drawable="@drawable/progress_primary_s7" android:scaleWidth="100%" android:scaleHeight="200%"/>
+    </item>
+</layer-list>

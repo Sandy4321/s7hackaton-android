@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_level">
+        <item quantity="zero">нет уровня</item>
+        <item quantity="one">%d уровень</item>
+        <item quantity="two">%d уровень</item>
+        <item quantity="few">%d уровен</item>
+        <item quantity="many">%d уровень</item>
+        <item quantity="other">%d уровен</item>
+    </plurals>
+
+    <plurals name="plurals_flight">
+        <item quantity="zero">нет полетов</item>
+        <item quantity="one">%d полет</item>
+        <item quantity="two">%d полета</item>
+        <item quantity="few">%d полетов</item>
+        <item quantity="many">%d полетов</item>
+        <item quantity="other">%d полетов</item>
+    </plurals>
+</resources>

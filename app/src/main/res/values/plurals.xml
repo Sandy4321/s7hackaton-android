@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_level">
+        <item quantity="zero">нет уровня</item>
+        <item quantity="one">%d уровень</item>
+        <item quantity="two">%d уровень</item>
+        <item quantity="few">%d уровень</item>
+        <item quantity="many">%d уровень</item>
+        <item quantity="other">%d уровень</item>
+    </plurals>
+
+    <plurals name="plurals_flight">
+        <item quantity="zero">нет полетов</item>
+        <item quantity="one">%d полет</item>
+        <item quantity="two">%d полета</item>
+        <item quantity="few">%d полетов</item>
+        <item quantity="many">%d полетов</item>
+        <item quantity="other">%d полетов</item>
+    </plurals>
+
+    <plurals name="plurals_points">
+        <item quantity="other">%d баллов</item>
+        <item quantity="one">%d балл</item>
+        <item quantity="two">%d балла</item>
+        <item quantity="few">%d балла</item>
+        <item quantity="many">%d баллов</item>
+    </plurals>
+
+    <plurals name="plurals_aeroport">
+        <item quantity="other">Аэропортов прибытия</item>
+        <item quantity="one">Аэропорт прибытия</item>
+        <item quantity="two">Аэропорта прибытия</item>
+        <item quantity="few">Аэропортов прибытия</item>
+        <item quantity="many">Аэропортов прибытия</item>
+    </plurals>
+
+    <plurals name="plurals_city">
+        <item quantity="other">Городов</item>
+        <item quantity="one">Город</item>
+        <item quantity="few">Городов</item>
+        <item quantity="many">Городов</item>
+    </plurals>
+
+    <plurals name="plurals_country">
+        <item quantity="other">Страны</item>
+        <item quantity="one">Страна</item>
+        <item quantity="two">Страны</item>
+        <item quantity="few">Стран</item>
+        <item quantity="many">Стран</item>
+    </plurals>
+    <plurals name="plurals_aero">
+        <item quantity="other">Самолетов</item>
+        <item quantity="one">Самолет</item>
+        <item quantity="two">Самолета</item>
+        <item quantity="few">Самолетов</item>
+        <item quantity="many">Самолетов</item>
+    </plurals>
+</resources>
